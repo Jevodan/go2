@@ -1,6 +1,9 @@
 package main
 
-import "ducks/ducks"
+import (
+	"ducks/ducks"
+	"fmt"
+)
 
 func main() {
 
@@ -17,5 +20,5 @@ func main() {
 		value.PerformQuack()
 		value.Display()
 	}
-
+	fmt.Println("__")
 }
